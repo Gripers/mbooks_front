@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body {
+  margin-top: 26px;
+}
+
+.body form {
+  display: grid;
+  grid-gap: 16px;
+}

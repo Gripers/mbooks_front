@@ -1,0 +1,24 @@
+.sidebar {
+  width: fit-content;
+  background-color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-family: 'Neue Montreal Medium', sans-serif;
+  letter-spacing: 1px;
+}
+
+.sidebar ul {
+  margin: 16px 0;
+}
+
+.sidebar ul li {
+  margin-top: 10px;
+}
+
+@media all and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+  }
+}
